@@ -11,7 +11,7 @@ var Driver = function(){
 
         this._client = require('mongodb').MongoClient;
 
-        this._client.connect('mongodb://' + this.host + ':27017' + this.SEPARATOR + this.database,function(err,db){
+        this._client.connect('mongodb://' + this.user + ':' + this.password + '@' + this.host + ':27017' + this.SEPARATOR + this.database,function(err,db){
             if(err){
                 driver.emitter.emit('db_err',err);
             }else{
