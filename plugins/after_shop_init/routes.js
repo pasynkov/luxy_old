@@ -39,7 +39,7 @@ var Plugin = function(){
 
 	this.init = function(){
 
-		if(this.vakoo.isProduction()){
+		if(false){
 
 			that.option('shop').model('category').find(function(categories){
 				categories.forEach(function(category){
