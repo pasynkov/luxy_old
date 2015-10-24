@@ -11,7 +11,7 @@ var Driver = function(){
 
         this._client = require('mongodb').MongoClient;
 
-        this._client.connect('mongodb://luxy:085bdb2261@db.vakoo.ru:27017',function(err,db){
+        this._client.connect('mongodb://luxy:085bdb2261@db.vakoo.ru:27017/luxy',function(err,db){
             if(err){
                 driver.emitter.emit('db_err',err);
             }else{
