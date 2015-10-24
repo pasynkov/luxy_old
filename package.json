@@ -20,6 +20,7 @@
     "mailcomposer": "~0.2.12",
     "mime": "~1.2.11",
     "mongodb": "~1.4",
+    "newrelic": "^1.22.2",
     "redis": "~0.12.1",
     "request": "^2.53.0",
     "simplesmtp": "~0.3.32",
