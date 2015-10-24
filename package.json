@@ -16,7 +16,6 @@
     "handlebars": "~2.0.0-alpha.2",
     "handlebars-helper": "0.0.11",
     "iconv-lite": "~0.4.4",
-    "jsdom": "^0.11.1",
     "line-by-line": "^0.1.1",
     "mailcomposer": "~0.2.12",
     "mime": "~1.2.11",
