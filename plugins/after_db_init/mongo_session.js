@@ -5,6 +5,8 @@ var Plugin = function(){
 
 	this.init = function(){
 
+        return;
+
 		if(!this.vakoo._isRunning)
 			return;
 
