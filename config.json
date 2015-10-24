@@ -8,8 +8,10 @@
 	},
     "db":{
         "driver":"mongodb",
-        "host":"127.0.0.1",
-        "database":"vakoo"
+        "host":"db.vakoo.ru",
+        "database":"luxy",
+        "user": "luxy",
+        "password": "085bdb2261"
     },
     "tmpl_lib":"tmpl",
     "template":"luxy",
