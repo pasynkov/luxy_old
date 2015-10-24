@@ -1,0 +1,9 @@
+{
+    "admin(/)":{
+        "option":"admin"
+    },
+	"admin/<opt>":{
+		"option":"admin",
+		"opt":"<opt>"
+	}
+}

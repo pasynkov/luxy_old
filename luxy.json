@@ -1,0 +1,13 @@
+[{
+	"name": "luxy",
+	"script": "./app.coffee",
+	"instances": "2",
+	"error_file": "./logs/err.log",
+	"out_file": "./logs/out.log",
+	"exec_mode": "cluster",
+	"port": 8773,
+    "env": {
+        "NODE_ENV": "production"
+    }
+}
+]

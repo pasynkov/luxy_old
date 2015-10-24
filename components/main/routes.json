@@ -1,0 +1,11 @@
+{
+    "about":{
+        "option":"main",
+        "method":"page",
+        "alias":"about"
+    },
+	"search":{
+		"option":"main",
+		"method":"search"
+	}
+}

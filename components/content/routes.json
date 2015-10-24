@@ -1,0 +1,20 @@
+{
+	"articles/<alias>":{
+		"method":"article",
+		"type":"article"
+	},
+	"news/<alias>":{
+		"method":"article",
+		"type":"news"
+	},
+	"articles(/)":{
+		"method":"articles"
+	},
+	"news(/)":{
+		"method":"news"
+	},
+	"page(/)":{
+		"option":"content",
+		"method":"article"
+	}
+}
