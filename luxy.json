@@ -1,11 +1,12 @@
 [{
 	"name": "luxy",
 	"script": "./app.coffee",
-	"instances": "2",
+	"instances": "1",
 	"error_file": "./logs/err.log",
 	"out_file": "./logs/out.log",
-	"exec_mode": "cluster",
+	"exec_mode": "fork",
 	"port": 8773,
+    "max_memory_restart": "200M",
     "env": {
         "NODE_ENV": "production"
     }
